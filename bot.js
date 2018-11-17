@@ -9,4 +9,4 @@ channel.send(`Venom is the Best`);
 }, 25)
 })
  
-client.login('TOKEN');
+client.login(process.env.BOT_TOKEN);
